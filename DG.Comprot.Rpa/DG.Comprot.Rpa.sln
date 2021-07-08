@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DG.Comprot.Rpa", "DG.Comprot.Rpa\DG.Comprot.Rpa.csproj", "{08995F03-4CC5-4BBC-8B34-B45F081B8439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG.Comprot.Rpa", "DG.Comprot.Rpa\DG.Comprot.Rpa.csproj", "{08995F03-4CC5-4BBC-8B34-B45F081B8439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetML.Model", "MLNetML.Model\MLNetML.Model.csproj", "{691675A7-12EA-4189-9320-88D9D1181FEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG.Comprot.RpaML.Model", "DG.Comprot.RpaML.Model\DG.Comprot.RpaML.Model.csproj", "{95E462B6-C50D-4FC8-A4BA-8DD381C66035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG.Comprot.RpaML.ConsoleApp", "DG.Comprot.RpaML.ConsoleApp\DG.Comprot.RpaML.ConsoleApp.csproj", "{83479AA5-C89F-4B5E-93B3-9085943A5D86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{08995F03-4CC5-4BBC-8B34-B45F081B8439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08995F03-4CC5-4BBC-8B34-B45F081B8439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08995F03-4CC5-4BBC-8B34-B45F081B8439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691675A7-12EA-4189-9320-88D9D1181FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691675A7-12EA-4189-9320-88D9D1181FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691675A7-12EA-4189-9320-88D9D1181FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691675A7-12EA-4189-9320-88D9D1181FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E462B6-C50D-4FC8-A4BA-8DD381C66035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E462B6-C50D-4FC8-A4BA-8DD381C66035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E462B6-C50D-4FC8-A4BA-8DD381C66035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E462B6-C50D-4FC8-A4BA-8DD381C66035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83479AA5-C89F-4B5E-93B3-9085943A5D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83479AA5-C89F-4B5E-93B3-9085943A5D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83479AA5-C89F-4B5E-93B3-9085943A5D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83479AA5-C89F-4B5E-93B3-9085943A5D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

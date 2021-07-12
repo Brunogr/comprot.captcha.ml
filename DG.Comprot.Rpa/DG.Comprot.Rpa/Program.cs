@@ -155,11 +155,17 @@ namespace DG.Comprot.Rpa
                 //PredictionScore bestChoice = SimplePrediction(counter, bitmap);
                 PredictionScore bestChoice = ComplexPrediction(counter, bitmap);
 
+                if (bestChoice.Score > 2.0F)
+                    bitmap.Save(@$"E:\MachineLearning\Comprot\{bestChoice.Prediction}\BestChoice_{bestChoice.Prediction}_{bestChoice.Score}%_{Guid.NewGuid().ToString()}.png");
+                else
+                    bitmap.Save(@$"E:\MachineLearning\NotClassified\{bestChoice.Prediction}_{bestChoice.Score}%_{Guid.NewGuid().ToString()}.png");
+
                 final += bestChoice.Prediction;
 
                 counter++;
             }
 
+            
             return final;
         }
 
@@ -229,6 +235,7 @@ namespace DG.Comprot.Rpa
 
 
             var bestChoice = prediction.BestChoice();
+
             return bestChoice;
         }
 
